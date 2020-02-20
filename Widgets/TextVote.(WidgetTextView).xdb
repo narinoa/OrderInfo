@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetTextView>
+<Name>TextVote</Name>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>10</Pos>
+			<HighPos>75</HighPos>
+			<Size>0</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<HighPos>0</HighPos>
+			<Size>40</Size>
+		</Y>
+	</Placement>
+	<FormatFileRef href="TextVote.txt" />
+	<TextStyle>
+		<multiline>true</multiline>
+	</TextStyle>
+	<TransparentInput>true</TransparentInput>
+</WidgetTextView>

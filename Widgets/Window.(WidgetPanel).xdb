@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>Window</Name>
+	<Priority>1</Priority>
+	<Children>
+		<Item href="Ability.(WidgetPanel).xdb" />
+	</Children>
+	<BackLayer href="Textures/GroupFrame.(WidgetLayerTiledTexture).xdb" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>100</Pos>
+			<Size>500</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>100</Pos>
+			<Size>400</Size>
+		</Y>
+	</Placement>
+	<Visible>false</Visible>
+</WidgetPanel>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>VoteForBuffs</Name>
+	<Header>
+	<Prototype href="/Mods/SampleCommon/Button/ButtonRegular.Prototype.(WidgetButton).xdb" />
+	</Header>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>200</Size>
+			<Pos>0</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_HIGH</Align>
+			<HighPos>15</HighPos>
+			<Size>32</Size>
+		</Y>
+	</Placement>
+		<Enabled>true</Enabled>
+		<Visible>false</Visible>
+	<Variants>
+		<Item>
+			<Reaction>ButtonVote</Reaction>
+			<TextFileRef href="Button.txt" />
+		</Item>
+	</Variants>
+	
+</WidgetButton>

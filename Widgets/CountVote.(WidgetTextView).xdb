@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetTextView>
+<Name>CountVote</Name>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_HIGH</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<HighPos>10</HighPos>
+			<Size>35</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<HighPos>0</HighPos>
+			<Size>40</Size>
+		</Y>
+	</Placement>
+	<FormatFileRef href="TextVote.txt" />
+	<TextStyle>
+		<multiline>true</multiline>
+	</TextStyle>
+	<TransparentInput>true</TransparentInput>
+</WidgetTextView>

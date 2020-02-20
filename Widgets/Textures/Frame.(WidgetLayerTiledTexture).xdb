@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetLayerTiledTexture>
+	<Color>0xffffffff</Color>
+	<Grayed>false</Grayed>
+	<BlendEffect>BLEND_EFFECT_ALPHABLND</BlendEffect>
+	<flatPlacement>false</flatPlacement>
+	<lazyLoad>false</lazyLoad>
+	<textureItem href="/Interface/Ingame/Contextructor/WindowFrame/Frame.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	<Layout>
+		<LeftX>150</LeftX>
+		<MiddleX>84</MiddleX>
+		<RightX>150</RightX>
+		<TopY>110</TopY>
+		<MiddleY>68</MiddleY>
+		<BottomY>110</BottomY>
+	</Layout>
+	<layoutTypeX>WIDGET_LAYER_TILED_LAYOUT_TYPE_SCALED</layoutTypeX>
+	<layoutTypeY>WIDGET_LAYER_TILED_LAYOUT_TYPE_SCALED</layoutTypeY>
+</WidgetLayerTiledTexture>

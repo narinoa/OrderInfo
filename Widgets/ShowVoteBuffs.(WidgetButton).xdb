@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>ShowVoteBuffs</Name>
+    <Priority>42</Priority>
+   <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_CENTER</Align>
+      <Size>32</Size>
+	   <Pos>-190</Pos>
+    </X>
+    <Y>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+	  <Size>32</Size>
+      <HighPos>15</HighPos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="Textures/ButtonHighlighted.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      <StateNormal>
+        <LayerMain href="Textures/ButtonPressed.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="Textures/ButtonNormal.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StatePushed>
+      <Reaction>ShowBuffsVote</Reaction>
+      <ReactionOnUp>true</ReactionOnUp>
+    </Item>
+  </Variants>
+</WidgetButton>

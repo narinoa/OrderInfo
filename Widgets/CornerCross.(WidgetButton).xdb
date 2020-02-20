@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>CornerCross</Name>
+   <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+      <HighPos>-10</HighPos>
+      <Size>37</Size>
+    </X>
+    <Y>
+		 <Align>WIDGET_ALIGN_LOW</Align>
+      <Size>37</Size>
+	  <Pos>10</Pos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="Textures/CornerCross/CornerCrossHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      <StateNormal>
+        <LayerMain href="Textures/CornerCross/CornerCrossNormal.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="Textures/CornerCross/CornerCrossPressed.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StatePushed>
+      <Reaction>mouse_click</Reaction>
+      <ReactionOnUp>true</ReactionOnUp>
+    </Item>
+  </Variants>
+</WidgetButton>

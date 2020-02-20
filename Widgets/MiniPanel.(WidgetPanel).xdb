@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>MiniPanel</Name>
+	<Children>
+		<Item href="Enable.(WidgetPanel).xdb" />
+		<Item href="Disable.(WidgetPanel).xdb" />
+		<Item href="ButtonVote.(WidgetButton).xdb" />
+	</Children>
+	<BackLayer href="Textures/MainFrame.(WidgetLayerTiledTexture).xdb" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</Y>
+	</Placement>
+</WidgetPanel>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>VotePanel</Name>
+	<Children>
+	<Item href="CornerCross.(WidgetButton).xdb" />
+	<Item href="TextVote.(WidgetTextView).xdb" />
+	<Item href="CountVote.(WidgetTextView).xdb" />
+	<Item href="CheckBox/CheckBox.(WidgetButton).xdb" />
+	<Item href="Button.(WidgetButton).xdb" />
+	</Children>
+	<BackLayer href="Textures/BuffVotes.(WidgetLayerTiledTexture).xdb" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</Y>
+	</Placement>
+</WidgetPanel>

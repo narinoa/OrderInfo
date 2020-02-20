@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>ButtonVote</Name>
+  <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+      <HighPos>0</HighPos>
+      <Size>24</Size>
+    </X>
+    <Y>
+      <Size>24</Size>
+	  <Pos>38</Pos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="Textures/CornerQuestionHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      <StateNormal>
+        <LayerMain href="Textures/CornerQuestionNormal.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="Textures/CornerQuestionPressed.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StatePushed>
+      <Reaction>LEFT_CLICK</Reaction>
+	  <ReactionRightClick>RIGHT_CLICK</ReactionRightClick>
+      <ReactionOnUp>true</ReactionOnUp>
+    </Item>
+  </Variants>
+</WidgetButton>
